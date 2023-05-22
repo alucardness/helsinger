@@ -1,0 +1,12 @@
+# Ignore vendor directory
+/vendor
+
+# Ignore IDE-specific files
+.idea
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer lock file
+composer.lock

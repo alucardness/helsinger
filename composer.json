@@ -1,0 +1,17 @@
+{
+    "name": "alucard/helsinger",
+    "description": "Simple php framework.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Alucard\\Helsinger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julien",
+            "email": "66158548+alucardness@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
