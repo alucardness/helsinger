@@ -9,4 +9,12 @@
  * depends on and manages the installation and loading of those dependencies.
  */
 
-require_once __DIR__ . "/../../vendor/autoload.php";
+require_once __DIR__ . "/../vendor/autoload.php";
+
+/* ------------------------------------------------
+ * Run Application
+ * ------------------------------------------------
+ *
+ */
+
+$app = require_once __DIR__ . "/../bootstrap/app.php";
