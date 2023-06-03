@@ -14,6 +14,7 @@
     }
   ],
   "require": {
-    "larapack/dd": "1.*"
+    "larapack/dd": "1.*",
+    "psr/container": "^2.0"
   }
 }

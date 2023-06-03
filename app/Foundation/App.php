@@ -9,6 +9,12 @@ class App
     public const VERSION = '1.0';
 
     private static $instance;
+    public static Container $container;
+
+    public function __construct()
+    {
+        static::$container = new Container();
+    }
 
     public static function getInstance(): App
     {
